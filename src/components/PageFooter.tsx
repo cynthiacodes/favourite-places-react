@@ -3,7 +3,7 @@ import './App.css';
 function PageFooter(): JSX.Element {
     return (
       <footer>
-        <h1>Footer stuff here</h1>
+        <h1 className='page-footer'>Footer stuff here</h1>
       </footer>
     );
   }
