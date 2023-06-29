@@ -1,13 +1,14 @@
 .header-title{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
+    color:darkgreen;
 
 }
 
 
 
 .entry-title{
-    color:blue;
+    color:grey;
     text-align: center;
 }
 
@@ -22,15 +23,21 @@
 
 .entry-location{
     text-align: center;
+    color: grey;
 
+}
+
+.google-link{
+    color:gray;
 }
 
 .entry-text{
     text-align: center;
+    color: rgb(101, 100, 100);
 
 }
 
 .page-footer{
-  color: black;
+  color: darkgreen;
   text-align: center;
 }
