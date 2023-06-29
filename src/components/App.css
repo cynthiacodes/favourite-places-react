@@ -1,11 +1,12 @@
 .header-title{
-
+    text-align: center;
 }
 
 
 
 .entry-title{
-    color:blue
+    color:blue;
+    text-align: center;
 }
 
 .entry-image{
@@ -15,6 +16,16 @@
     width: 50%;
    border-radius:10px;
    padding:5px;
+}
+
+.entry-location{
+    text-align: center;
+
+}
+
+.entry-text{
+    text-align: center;
+
 }
 
 .page-footer{

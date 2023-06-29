@@ -15,10 +15,10 @@ interface PlaceEntryProps {
       <section>
         <img className= 'entry-image' src = {imageURL}  alt = {imageText} />
         <h2 className = 'entry-title'>{title}</h2>
-        <h3>
+        <h3 className='entry-location'>
         {placeName},{countryName} (<a href={mapURL}>map link</a>)
         </h3>
-        <p>
+        <p className='entry-text'>
         {text}
         </p>
       </section>
