@@ -1,9 +1,18 @@
+.entry-header{
+
+}
+
+
+
 .entry-title{
     color:blue
 }
 
 .entry-image{
-    width: 200px;
-  height: 200px;
-  border: 1px solid #000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   border-radius:10px;
+   padding:5px;
 }
