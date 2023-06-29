@@ -40,7 +40,7 @@ function MainContent(): JSX.Element {
         <PlaceEntry
             imageURL = {"/images/suzhou.jpg"}
             imageText= {"walking through the Venice of China"}
-            title= {"walking through the Venice of China"}
+            title= {"Walking through the Venice of China"}
             placeName= {"Suzhou"}
             countryName= {"China"}
             mapURL= {"https://goo.gl/maps/sUaHa7TJcVmpcqk77"}
