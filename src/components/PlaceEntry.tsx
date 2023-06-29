@@ -3,14 +3,15 @@ interface PlaceEntryProps {
     placeName: string;
     countryName: string;
     imageURL: string;
+    imageText: string;
     mapURL: string;
     text: string;
   }
   
-  function PlaceEntry({title,placeName,countryName,imageURL,mapURL,text}: PlaceEntryProps): JSX.Element {
+  function PlaceEntry({title,placeName,countryName,imageURL,imageText,mapURL,text}: PlaceEntryProps): JSX.Element {
     return (
       <section>
-        <img src = {imageURL} />
+        <img src = {imageURL} alt = {imageText} />
         <h2>{title}</h2>
         <h3>
         {placeName},{countryName} (<a href={mapURL}>map link</a>)
