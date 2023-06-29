@@ -9,7 +9,6 @@ function App(): JSX.Element {
      <PageHeader />
      <MainContent />
      <PageFooter />
-    
     </>
 
   );
