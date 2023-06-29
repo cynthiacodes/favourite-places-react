@@ -13,11 +13,11 @@ interface PlaceEntryProps {
         <img src = {imageURL} />
         <h2>{title}</h2>
         <h3>
-            {placeName},{countryName} (<a href={mapURL}>map link</a>)
+        {placeName},{countryName} (<a href={mapURL}>map link</a>)
         </h3>
-          <p>
-            {text}
-          </p>
+        <p>
+        {text}
+        </p>
       </section>
     );
   }
