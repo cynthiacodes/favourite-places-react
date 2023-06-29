@@ -1,3 +1,5 @@
+import './App.css';
+
 function PageHeader(): JSX.Element {
     return (
       <header>

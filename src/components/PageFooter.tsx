@@ -1,3 +1,5 @@
+import './App.css';
+
 function PageFooter(): JSX.Element {
     return (
       <footer>
