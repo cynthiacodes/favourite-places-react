@@ -1,4 +1,4 @@
-import './PlaceEntry.css';
+import './App.css';
 
 interface PlaceEntryProps {
     title: string;
@@ -14,7 +14,7 @@ interface PlaceEntryProps {
     return (
       <section>
         <img src = {imageURL} alt = {imageText} />
-        <h2 className = 'title'>{title}</h2>
+        <h2 className = 'entry-title'>{title}</h2>
         <h3>
         {placeName},{countryName} (<a href={mapURL}>map link</a>)
         </h3>
