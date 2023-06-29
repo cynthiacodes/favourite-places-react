@@ -13,7 +13,7 @@ function MainContent(): JSX.Element {
             placeName= {"Zanizibar"}
             countryName= {"Tanzania"}
             mapURL= {"https://goo.gl/maps/YkieqGjkieoNo46Z9"}
-            text = {"Nungwi in Zanzibar is a truly enchanting destination that combines natural beauty, underwater wonders, and a friendly atmosphere"}
+            text = {"Nungwi in Zanzibar is a truly enchanting destination that combines natural beauty, underwater wonders, and a friendly atmosphere."}
         />
         <PlaceEntry
             imageURL = {"/images/giraffe.jpg"}
