@@ -3,7 +3,7 @@ import PlaceEntry from "./PlaceEntry";
 function MainContent(): JSX.Element {
   return (
     <main>
-        <PlaceEntry
+      <PlaceEntry
         imageURL={"/images/zanzibar.jpg"}
         imageText="sunset over the Indian Ocean in Zanzibar"
         title={"Beautiful sunset at the beach"}
@@ -47,7 +47,6 @@ function MainContent(): JSX.Element {
           'Suzhou, often referred to as the "Venice of China," is a city renowned for its enchanting waterways, classical gardens, and rich cultural heritage.'
         }
       />
-      
     </main>
   );
 }
