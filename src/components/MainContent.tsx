@@ -1,8 +1,10 @@
 import PlaceEntry from "./PlaceEntry";
+import { myEntries } from "../entriesData";
 
 function MainContent(): JSX.Element {
   return (
     <main>
+      {myEntries[0].title}
       <PlaceEntry
         imageURL={"/images/zanzibar.jpg"}
         imageText="sunset over the Indian Ocean in Zanzibar"
